@@ -46,5 +46,6 @@ public class AContest {
             System.out.println(ans);
 
         }
+        sc.close();
     }
 }
