@@ -8,7 +8,7 @@ class KadanesAlgorithm{
 
     public static int kadane(int[] arr){
         int n = arr.length;
-        int maxSum = 0;
+        int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
         for (int i = 0; i < n; i++) {
             currentSum += arr[i];
